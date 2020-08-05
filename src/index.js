@@ -4,7 +4,7 @@ import TestComponent from './TestComponent';
 import MyPage from './MyPage';
 import AppContainer from './AppContainer';
 
-console.log('!!Hi from child package!!');
+console.log('Hi from child package');
 
 let appDOMElement = null; // DOM element
 const exportedComponents = {
