@@ -6,7 +6,7 @@ import AppContainer from './AppContainer';
 
 console.log('Hi from child package');
 
-let appDOMElement = null; // DOM element
+let appDOMElement = null; // DOM elements
 const exportedComponents = {
   'MyPage': MyPage,
   'TestComponent': TestComponent
