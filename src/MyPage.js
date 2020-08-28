@@ -1,6 +1,15 @@
 import React from 'react';
+import Utils from 'gitsubmodule-package-utils';
 
 class MyPage extends React.Component {
+  getSubscriptionAmount () {
+    return Utils.currencyFormat({
+      number: 7,
+      format: 'en-US',
+      currency: 'USD'
+    });
+  }
+
   render () {
     return (
       <div>
@@ -18,6 +27,9 @@ class MyPage extends React.Component {
         </p>
         <p class="text u-margin-bottom-medium">
         "Never forget what you are. The rest of the world will not. Wear it like armour, and it can never be used to hurt you" - Tyrion Lannister
+        </p>
+        <p class="subscription">
+          Subscribe: { this.getSubscriptionAmount() } / year
         </p>
       </div>
     );
