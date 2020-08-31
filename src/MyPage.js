@@ -15,10 +15,10 @@ class MyPage extends React.Component {
       <div>
         <div class="mypage-heading__box">
           <h3 class="mypage-heading__text heading-secondary">
-            <span class="mypage-heading__span">Game of Thrones: Quotes</span>
+            <span class="mypage-heading__span">A few more...</span>
           </h3>
         </div>
-        <h3 class="u-margin-bottom-medium">Available on: { this.props.parent }</h3>
+        <h3 class="u-margin-bottom-medium">Read at: { this.props.parent }</h3>
         <p class="text u-margin-bottom-medium">
           "Chaos isn’t a pit. Chaos is a ladder" - Lord Baelish
         </p>
